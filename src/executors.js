@@ -2,10 +2,10 @@ import '@babel/polyfill'
 import fetch from 'node-fetch'
 import { print, GraphQLError } from 'graphql'
 const HASURA_API_URL =
-  process.env.HASURA_API_URL || 'http://localhost:3000/v1alpha1/graphql'
+  process.env.HASURA_API_URL || 'http://14.241.231.87:3000/v1alpha1/graphql'
 
 const PREFECT_API_URL =
-  process.env.PREFECT_API_URL || 'http://localhost:4201/graphql/'
+  process.env.PREFECT_API_URL || 'http://14.241.231.87:4201/graphql/'
 
 export const prefectExecutor = async ({ document, variables, context }) => {
   var headers = {}

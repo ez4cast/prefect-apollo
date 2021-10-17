@@ -11,7 +11,7 @@ const APOLLO_API_PORT = process.env.APOLLO_API_PORT || '4200'
 const APOLLO_API_BIND_ADDRESS = process.env.APOLLO_API_BIND_ADDRESS || '0.0.0.0'
 
 const PREFECT_API_HEALTH_URL =
-  process.env.PREFECT_API_HEALTH_URL || 'http://localhost:4201/health'
+  process.env.PREFECT_API_HEALTH_URL || 'http://14.241.231.87:4201/health'
 const PREFECT_SERVER_VERSION = process.env.PREFECT_SERVER_VERSION || 'UNKNOWN'
 
 const TELEMETRY_ENABLED_RAW =
